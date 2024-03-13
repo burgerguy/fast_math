@@ -2,6 +2,8 @@ use crate::shared::float::*;
 use crate::shared::int::*;
 use core::f32::consts::FRAC_PI_2;
 use core::ops::Range;
+use core::simd::cmp::*;
+use core::simd::num::*;
 use core::simd::*;
 use rand::rngs::ThreadRng;
 use rand::{thread_rng, Rng, RngCore};
