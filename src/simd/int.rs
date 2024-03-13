@@ -1,6 +1,8 @@
 use crate::shared::int::*;
 use crate::simd::int::consts::ilog_mul_shift;
 use core::mem::size_of;
+use core::simd::cmp::*;
+use core::simd::num::*;
 use core::simd::*;
 
 macro_rules! unsigned_impl {
